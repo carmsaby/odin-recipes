@@ -1,5 +1,45 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+    font-family: "Brush Script MT", Papyrus, Arial, sans-serif;
+}
+
+img  {
+    width: 700px;
+    height: 450px;
+    margin: 20px auto 10px;
+    display: block;
+
+}
+
+.ingredients {
+    color:blue;
+    text-align: left;
+}
+
+ul li {
+    list-style-type: circle;
+    font-size: 24px;
+}
+
+.steps {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.description {
+    background-color: floralwhite;
+    text-align: center;
+    padding: 8px;
+}
+.description :first-child {
+    margin-bottom: -5px;
 }
 .recipe,
 .menu li {
@@ -21,4 +61,16 @@ body {
     box-sizing: border-box;
     padding: 12px;
     background-color: lightgoldenrodyellow;
+}
+
+button {
+    background-color: aqua;
+    padding: 12px;
+    display: block;
+    margin: 3px auto;
+}
+
+ol li {
+    font-size: 22px;
+    margin: 1px;
 }
